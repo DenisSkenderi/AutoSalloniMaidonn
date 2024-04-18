@@ -1,0 +1,57 @@
+body,html{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.phone{
+    display: block;
+    background-color: red;
+    border: 0px solid;
+    width: 102%;
+    height: 30px;
+    margin-left: -10px;
+}
+.navbar{
+    position: fixed;
+    border: 0px solid;
+    width: 102%;
+    height: 55px;
+    background-color: #ff5733;
+    margin-left: -9px;
+}
+.navbarlist{
+    margin-left: 35%;
+    width: 100%;
+}
+.navbarlist,.list{
+    list-style-type: none;
+    float: left;
+}
+.link{
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.border{
+    height: 37px;
+    width: 0;
+    color: white;
+    margin-top: -10px;
+    border-left:1px solid white;
+    float: left;
+    margin-left: 15px;
+}
+.link:hover{
+    text-decoration: underline white 1.5px;
+    text-underline-position: under;
+    
+}
+.logo{
+    float: left;
+    margin-left: -150px;
+    margin-top: -35px;
+}
