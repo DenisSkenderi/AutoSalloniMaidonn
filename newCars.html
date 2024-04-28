@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./layout/newCar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Cars</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    <script>
+        $(function(){
+            $(".navbar").load("navbar.html");
+        });
+    </script>
+</head>
+<body>
+    <nav class="navbar"></nav>
+    <br>
+    <h1 style="font-family: sans-serif;margin-top: 8%;white-space: 10px;background-color: #ff5733;width: 350px;margin-left: 41%;color: white;"align="center">New Cars</h1>
+    <br>
+    <div class="models">
+        <div class="product">
+            <img style="border-radius: 5px;" src="./images/image.png" alt="" width="320px" height="300px">
+            <h2 align="left" class="price">€35,620</h2>
+            <hr class="productHr">
+            <h4 class="productTitle">Audi A6 50 TDI Quattro S-Line</h4>
+            <p class="productDescription">4 door Automatic Petrol Saloon 2019(19 reg) | 320,000km</p>
+            <button class="productButton" align="center">Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
