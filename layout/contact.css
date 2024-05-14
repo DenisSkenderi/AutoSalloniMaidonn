@@ -1,0 +1,28 @@
+.form{
+    margin-top: 5%;
+    width: 500px;
+    height: 350px;
+    margin-left: 37%;
+    border: 1px solid black;
+}
+.formdiv{
+    margin-top: 35px;
+    border: 1px solid white;
+    padding-left: 0px;
+    text-align: center;
+}
+.submitButton{
+    margin-left: 15px;
+    width: 150px;
+    align: center;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 15.5px;
+    border-radius: 5px;
+    height: 27px;
+}
