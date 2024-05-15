@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    <style>
+        .photo{
+            border: 1px solid white;
+            width: 720px;
+            height: 495px;
+            margin-top: 5%;
+            margin-left: 150px;
+        }
+        img{
+            width: 720px;
+            height: 496px;
+        }
+        .about_car{
+            width: 500px;
+            height: 300px;
+            margin-left: 50%;
+            margin-top: -18%;
+            border: 1px solid white;
+        }
+        .text{
+            margin-top: 10%;
+            font-family: sans-serif;
+            color: red;
+            text-align: center;
+        }
+    </style>
+    <script>
+        $(function(){
+            $(".navbar").load("navbar.html");
+        });
+        $(function(){
+            $(".footer").load("footer.html");
+        });
+    </script>
+</head>
+<body>
+    <div class="navbar"></div>
+    <h1 style="font-family: sans-serif;margin-top: 8%;white-space: 10px;background-color: #ff5733;width: 450px;margin-left: 41%;color: white;"align="center">VW Arteon 2.0TDi Comfort-Line</h1>
+    <div class="photo">
+       <a href="https://cdn.motori.it/D_2Pq1OAfDtVVkwuMm_oSKoxNNs=/720x495/smart/https://www.motori.it/wp-content/uploads/2020/10/angelourbano-4652.jpg"><img style="border-radius: 15px;" src="https://www.allesauto.at/wp-content/uploads/2017/10/vw_arteon_15_may.jpg" alt=""></a>
+    </div>
+    <div class="about_car">
+        <h2 class="text">VW Arteon 2.0TDi Comfort-Line</h2>
+        <h4 class="text">2018 / Full Uptions / km 200.000 / €22,000</h4>
+        <p class="text" onclick="window.open('tel:+383-46-222-000')" style="cursor: pointer;">Buy by contacting us on: +383-46-222-000</p>
+    </div>
+    <div class="footer" style="margin-top: 7.5%;"></div>
+</body>
+</html>

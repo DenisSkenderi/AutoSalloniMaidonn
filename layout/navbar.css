@@ -51,7 +51,10 @@ body,html{
 .link:hover{
     text-decoration: underline white 1.5px;
     text-underline-position: under;
-    
+}
+#a:hover{
+    text-decoration: underline white 1.5px;
+    text-underline-position: under;
 }
 .logo{
     float: left;
